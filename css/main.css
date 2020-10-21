@@ -1,0 +1,191 @@
+/*------------------------------------- Gallery ----------------------------------------------*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.column {
+background-color: #cccccc;
+}
+/*--------------------------------------------------------------------------------------*/
+
+/*--------------------------------------Contact------------------------------------------------*/
+
+
+ 
+.footer-top-box hr{
+	border-top: 1px solid rgba(255,255,255,.6);
+
+}
+
+.footer-top-box p{
+	 padding-bottom: 15px;
+	 color: #cccccc;
+ }
+
+ .footer-top-box ul{
+     display: inline-block;
+}
+ .footer-top-box ul a {
+     float: left;
+     margin-right: 5px;
+}
+ .footer-top-box ul  a {
+     color: #ffffff;
+     display: inline-block;
+     width: 36px;
+     height: 36px;
+     border: 2px solid #ffffff;
+     text-align: center;
+     line-height: 32px;
+}
+ .footer-top-box ul  a:hover {
+     color: #b0b435;
+     border-color: #b0b435;
+}
+
+.footer-top-box{
+	margin-bottom: 30px;
+}
+.footer-top-box h4{
+	color: #ffffff;
+	position: relative;
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 700;
+}
+.footer-top-box h4::before {
+    border-bottom: 3px solid #b0b435;
+    content: "";
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    bottom: -5px;
+    left: 0px;
+
+}
+
+.footer-link-contact h4{
+     color: #ffffff;
+     font-size: 16px;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     margin-bottom: 20px;
+     position: relative;
+     font-weight: 700;
+}
+ .footer-link-contact h4::before {
+     border-bottom: 3px solid #b0b435;
+     content: "";
+     height: 3px;
+     width: 100%;
+     position: absolute;
+     bottom: -4px;
+     left: 0px;
+}
+ .footer-link-contact ul li{
+     margin-bottom: 12px;
+}
+ .footer-link-contact ul li i{
+     position: absolute;
+     left: 0;
+     top: 5px;
+     padding-right: 6px;
+}
+ .footer-link-contact ul li p{
+     padding-left: 25px;
+     color: #cccccc;
+     position: relative;
+}
+ .footer-link-contact ul li p{
+     font-size: 16px;
+     color: #cccccc;
+     font-weight: 300;
+     padding-right: 16px;
+     line-height: 24px;
+}
+ .footer-link-contact ul li p a{
+     color: #cccccc;
+}
+ .footer-link-contact ul li p a:hover{
+     color: #b0b435;
+}
+
+.footer-widget, .footer-link, .footer-link-contact{
+	margin-top: 15px;
+}
+ .footer-widget h4 {
+     color: #ffffff;
+     font-size: 16px;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     margin-bottom: 20px;
+     position: relative;
+     font-weight: 700;
+}
+ .footer-widget h4::before {
+     border-bottom: 3px solid #b0b435;
+     content: "";
+     height: 3px;
+     width: 100%;
+     position: absolute;
+     bottom: -3px;
+     left: 0px;
+}
+ .footer-widget p {
+     color: #cccccc;
+     font-weight: 400;
+     font-size: 14px;
+     padding-bottom: 20px;
+}
+/*--------------------------------------------------------------------------------------*/
